@@ -1,3 +1,4 @@
+# Первый вариант
 import math
 s = float(input("Введите площадь круга: "))
 if s > 0:
@@ -8,6 +9,6 @@ if s > 0:
 else:
     print('Ошибка')
 
-#Второй вариант
+# Второй вариант
 def area(s):
     return 2*math.sqrt(s*math.pi)
